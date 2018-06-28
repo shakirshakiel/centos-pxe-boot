@@ -17,11 +17,9 @@
     a. Follow the link - https://www.linuxtechi.com/configure-pxe-installation-server-centos-7/. Use the files in the repo
   
 9. Create another machine (pxe-client)
+    
+    a. Select RAM (2048 MB) and not 1024 MB (Ref: https://www.spinics.net/lists/centos/msg165578.html)
   
-    a. Choose redhat flavor
-  
-    b. Select RAM (2048 MB) and not 1024 MB (Ref: https://www.spinics.net/lists/centos/msg165578.html)
-  
-    c. Select only one Network adapter - Host only network
+    b. Select only one Network adapter - Host only network
   
 10. Boot the pxe-client
