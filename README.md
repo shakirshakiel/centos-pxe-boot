@@ -13,15 +13,15 @@
 6. Power on the machine
 7. Check the bi-directional connectivity between guest and host
 8. Setup pxe server in centos
-  
-  a. Follow the link - https://www.linuxtechi.com/configure-pxe-installation-server-centos-7/. Use the files in the repo
+
+    a. Follow the link - https://www.linuxtechi.com/configure-pxe-installation-server-centos-7/. Use the files in the repo
   
 9. Create another machine (pxe-client)
   
-  a. Choose redhat flavor
+    a. Choose redhat flavor
   
-  b. Select RAM (2048 MB) and not 1024 MB (Ref: https://www.spinics.net/lists/centos/msg165578.html)
+    b. Select RAM (2048 MB) and not 1024 MB (Ref: https://www.spinics.net/lists/centos/msg165578.html)
   
-  c. Select only one Network adapter - Host only network
+    c. Select only one Network adapter - Host only network
   
 10. Boot the pxe-client
